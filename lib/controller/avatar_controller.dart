@@ -1,5 +1,5 @@
-import 'package:star_wars/model/avatar_model.dart';
-import 'package:star_wars/model/avatar_repository.dart';
+import '../model/avatar_model.dart';
+import '../model/avatar_repository.dart';
 
 class AvatarController {
 

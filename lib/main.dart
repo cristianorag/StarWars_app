@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:star_wars/util/route_generator.dart';
+import 'package:star_wars/view/home.dart';
 
 void main() {
   runApp(MaterialApp(

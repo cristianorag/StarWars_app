@@ -2,7 +2,6 @@ import 'package:star_wars/model/favorite_model.dart';
 import 'package:star_wars/model/favorite_repository.dart';
 
 class FavoriteController {
-
   late FavoriteRepository _repository;
 
   FavoriteController(this._repository);
@@ -18,5 +17,4 @@ class FavoriteController {
   void delete(FavoriteModel favoriteModel) async {
     _repository.delete(favoriteModel);
   }
-
 }

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
-import 'package:star_wars/util/constants.dart';
+import '../util/constants.dart';
 
 abstract class AbstractRepository {
 

@@ -5,7 +5,6 @@ import 'package:star_wars/model/people_model.dart';
 import 'package:star_wars/util/constants.dart';
 
 class PeopleRepository {
-
   const PeopleRepository();
 
   Future<List<PeopleModel>> findAll() async {
@@ -22,8 +21,7 @@ class PeopleRepository {
 
       return tempPeople;
     } else {
-      throw(response);
+      throw (response);
     }
   }
-
 }

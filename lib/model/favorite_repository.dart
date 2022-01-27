@@ -2,7 +2,7 @@ import 'package:sqflite/sqflite.dart';
 
 import 'abstract_repository.dart';
 import 'favorite_model.dart';
-import 'package:star_wars/model/film_model.dart';
+import 'film_model.dart';
 import 'people_model.dart';
 
 class FavoriteRepository extends AbstractRepository {

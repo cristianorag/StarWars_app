@@ -6,7 +6,6 @@ import 'package:star_wars/util/constants.dart';
 import 'film_model.dart';
 
 class FilmRepository {
-
   const FilmRepository();
 
   Future<List<FilmModel>> findAll() async {
@@ -23,8 +22,7 @@ class FilmRepository {
 
       return tempFilms;
     } else {
-      throw(response);
+      throw (response);
     }
   }
-
 }
