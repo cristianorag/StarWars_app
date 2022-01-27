@@ -2,7 +2,6 @@ import '../model/avatar_model.dart';
 import '../model/avatar_repository.dart';
 
 class AvatarController {
-
   late AvatarRepository _repository;
 
   AvatarController(this._repository);
@@ -14,5 +13,4 @@ class AvatarController {
   Future<AvatarModel?> load() {
     return _repository.find();
   }
-
 }
