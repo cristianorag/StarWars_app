@@ -6,7 +6,7 @@ Aplicativo de lista de filmes e personagens de Star Wars   utilizando a linguage
 
 ## Requisitos
 
-- Flutter SDK 2.8.1
+- Flutter SDK 2.2+
 - [Opicional] Android Studio 4.2+ (plugins para Dart e Flutter devem estar instalados)
 - [Opicional] Visual Studio Code 1.57+ (extensões para Dart e Flutter devem estar instaladas)
 - Android SDK (para execução em aparelho/emulador Android)
